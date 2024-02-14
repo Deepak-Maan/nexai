@@ -18,7 +18,10 @@
     font-family: "recharge";
 }
 
-
 body {
     background-color: #040707;
+}
+
+.my-scroll::-webkit-scrollbar {
+    display: none;
 }
