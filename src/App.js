@@ -14,7 +14,7 @@ import More from "./components/More";
 function App() {
   return (
     <>
-      <div className="bg-[url('./assets/images/webp/bg-hero.webp')] bg-no-repeat min-h-[810px] bg-Bgsize100">
+      <div className="bg-[url('./assets/images/webp/bg-hero.webp')] bg-no-repeat max-lg:bg-cover min-h-[466px] lg:min-h-[810px] lg:bg-Bgsize100">
         <Nav />
         <Hero />
       </div>
