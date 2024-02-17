@@ -14,7 +14,7 @@ const What = () => {
                     </div>
                     <div className='relative order-1 lg:order-2 justify-center flex'>
                         <div className='bg-[#02CDCF] h-[463px] w-[463px] blur-[180px] absolute right-0 top-0 animate-pulse '></div>
-                        <img className='max-w-[463px] mix-blend-lighten max-h-[463px]' src={AI} alt="AI-img" />
+                        <img className='lg:max-w-[463px] mix-blend-lighten max-h-[463px]' src={AI} alt="AI-img" />
                     </div>
                 </div>
             </div>

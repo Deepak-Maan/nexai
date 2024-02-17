@@ -49,7 +49,7 @@ const BlockChain = () => {
                             <p className='font-recharge font-bold text-[20px] leading-[32px] text-center text-white max-w-[212px] pt-[30px]'>Security and Privacy</p>
                         </div>
                     </div>
-                    <div className='flex mt-[111px]'>
+                    <div className='flex lg:mt-[111px]'>
                         <div className='bg-[url(./assets/images/png/Polygon-bg.png)] bg-no-repeat bg-Bgsize100 pt-[70px] pb-[145px] px-[77px] flex flex-col justify-center items-center'>
                             <div className='w-[58px] h-[58px] pt-[2px] shadow-m bg-black rounded-full'>
                                 <p className='font-recharge font-bold text-[32px] leading-[51px] text-center text-white'>2</p>
@@ -65,7 +65,7 @@ const BlockChain = () => {
                             <p className='font-recharge font-bold text-[20px] leading-[32px] text-center text-white max-w-[212px] pt-[30px]'>Security and Privacy</p>
                         </div>
                     </div>
-                    <div className='flex mt-[111px]'>
+                    <div className='flex lg:mt-[111px]'>
                         <div className='bg-[url(./assets/images/png/Polygon-bg.png)] bg-no-repeat bg-Bgsize100 pt-[70px] pb-[145px] px-[77px] flex flex-col justify-center items-center'>
                             <div className='w-[58px] h-[58px] pt-[2px] shadow-m bg-black rounded-full'>
                                 <p className='font-recharge font-bold text-[32px] leading-[51px] text-center text-white'>4</p>

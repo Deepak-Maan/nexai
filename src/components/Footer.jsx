@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <div className=" bg-footer bg-no-repeat bg-cover bg-center min-h-[492px] flex flex-col justify-center">
             <div className=" max-w-[1164px] px-3 mx-auto">
-                <div className=" grid lg:grid-cols-3 grid-cols-1  pt-[145px]">
-                    <div className=" col-span-2">
+                <div className=" grid lg:grid-cols-3 grid-cols-1 sm:grid-cols-2  pt-[145px]">
+                    <div className=" lg:col-span-2">
                         <h2 className=" text-base font-bold leading-[25px] pt-9 font-recharge text-[#B4B4B4] max-w-[356px]">Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</h2>
                         <div className=" flex gap-3 pt-5">
                             <a className="duration-300 hover:-translate-y-2 rounded-full hover:shadow-[0px_0px_20px_1px_rgba(45,255,196,0.9)]" href="">< Facebook /></a>

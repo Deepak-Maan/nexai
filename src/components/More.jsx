@@ -12,7 +12,35 @@ const More = () => {
         { id: 5, title: "NexAi, is the front door locked?" },
         { id: 6, title: "NexAi, Turn of AC." },
     ];
-    const settings = { dots: false, infinite: true, speed: 3000, slidesToShow: 4, slidesToScroll: 1, autoplay: true, pauseOnHover: true, arrows: false, cssEase: 'linear' };
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 3000,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        pauseOnHover: true,
+        arrows: false,
+        cssEase: 'linear',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            }
+        ]
+    };
     return (
         <div className="mt-[200px] overflow-hidden">
             <h2 className="font-recharge font-bold text-[40px] leading-[50px] text-[#02CDCF] text-center">NexAi does all this. And more.</h2>
