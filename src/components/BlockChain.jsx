@@ -35,7 +35,7 @@ const BlockChain = () => {
         ]
     };
     return (
-        <div className='overflow-x-clip'>
+        <div id='market' className='overflow-x-clip'>
             <div className='mx-auto px-3 max-w-[1200px] pt-8 sm:pt-10 md:pt-20 lg:pt-[160px]'>
                 <h2 className='text-[25px] md:text-[40px] text-[#02CDCF] font-recharge font-bold leading-8 md:leading-[50px] text-center'>Blockchain & AI technology</h2>
                 <p className='font-normal text-sm sm:text-base leading-[25px] font-poppins mx-auto text-center max-w-[997px] text-[#B4B5B5] pt-4'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>

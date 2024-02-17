@@ -3,7 +3,7 @@ import { Facebook, Telegram, Twitter } from './Icons'
 
 const Footersection = () => {
     return (
-        <div className=' bg-[url(./assets/images/png/footer-bg.png)] bg-cover bg-center  bg-no-repeat '>
+        <div id='token' className=' bg-[url(./assets/images/png/footer-bg.png)] bg-cover bg-center  bg-no-repeat '>
             <div className=' max-w-[1140px] px-3 mx-auto w-full'>
                 <div className=' grid md:grid-cols-2 lg:grid-cols-3 pt-0 sm:pt-[50px] md:pt-[145px]'>
                     <div className=' lg:col-span-2 pt-12'>

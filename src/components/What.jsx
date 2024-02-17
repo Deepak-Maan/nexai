@@ -3,7 +3,7 @@ import AI from '../assets/images/png/AI-img.png'
 import CommonButton from './CommonButton'
 const What = () => {
     return (
-        <div className='px-3 pt-12 md:pt-20 lg:pt-[160px]'>
+        <div id='chat' className='px-3 pt-12 md:pt-20 lg:pt-[160px]'>
             <div className="mx-auto overflow-hidden max-w-[1350px] pb-4 sm:pb-11 md:pb-24 lg:pb-[174px] pt-4 sm:pt-10 md:pt-20 lg:pt-[163px] ps-3 sm:ps-6 md:ps-12 lg:ps-[100px] border border-white rounded-3xl bg-[url('./assets/images/gif/What-bg.gif')] ">
                 <div className="grid lg:grid-cols-2 gap-6 lg:gap-11">
                     <div className=' order-2 lg:order-1'>
