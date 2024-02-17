@@ -3,7 +3,7 @@ import { Clock, ClockPlus, Messages, ThreeLines } from './Icons'
 const Features = () => {
     return (
         <div className='px-3 pt-12 md:pt-16 lg:pt-[120px]'>
-            <div className='max-w-[1340px] mx-auto  px-3 sm:px-6 md:px-12 lg:px-[100px] pt-7 sm:pt-20 border border-[#FCFCFC] bg-[url("./assets/images/webp/bgservices.webp")] bg-no-repeat max-lg:bg-cover max-lg:bg-center lg:bg-Bgsize100 rounded-[32px] h-[810px] overflow-hidden '>
+            <div className='max-w-[1340px] mx-auto  px-3 sm:px-6 md:px-12 lg:px-[100px] pt-7 sm:pt-20 border border-[#FCFCFC] bg-[url("./assets/images/png/features-bg.png")] bg-no-repeat max-lg:bg-cover max-lg:bg-center lg:bg-Bgsize100 rounded-[32px] h-[810px] overflow-hidden '>
                 <div className="sticky top-0">
                     <h2 className='font-normal font-recharge leading-8 sm:leading-[50px] text-white text-[25px] sm:text-[40px] text-center'>Unique features</h2>
                     <p className=' text-center text-sm sm:text-base font-normal font-poppins leading-[25px] max-w-[397px] mx-auto pt-4 max-md:pb-4 text-[#B7B7B7]'>ability to engage in natural, fluent conversations in over 15 languages,</p>
