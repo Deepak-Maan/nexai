@@ -1,9 +1,16 @@
 import React from 'react'
 import UtilityImg from '../assets/images/png/utility-Img.png'
 import CommonButton from './CommonButton'
+import ellipse from '../assets/images/png/ellipse-img.png'
 const Utility = () => {
     return (
-        <div>
+        <div className='relative overflow-x-clip'>
+            <img className='absolute w-[209px] top-[3%] max-lg:hidden right-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
+            <img className='absolute w-[209px] bottom-[8%] max-lg:hidden right-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
+            <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute right-[2%] top-[25%] animate-pulse '></div>
+            <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute left-[1%] top-[10%] animate-pulse '></div>
+            <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute right-[1%] bottom-[10%] animate-pulse '></div>
+            <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute left-[1%] bottom-[10%] animate-pulse '></div>
             <div className='max-w-[1300px] pt-[160px] mx-auto px-3'>
                 <h2 className='text-[#02CDCF] text-[25px] sm:text-[40px] font-recharge font-bold leading-8 sm:leading-[50px] text-center'>NexAI Token & utility</h2>
                 <div className="grid lg:grid-cols-2 ">
@@ -43,10 +50,10 @@ const Utility = () => {
                 </div>
                 <div className="flex md:flex-row flex-col justify-between md:items-center pt-5 sm:mt-15 md:mt-32 lg:mt-[287px] sm:pb-5 lg:pb-[65px]">
                     <div className='max-md:pb-5'>
-                        <h2 className='text-[25px] sm:text-[40px] font-recharge font-bold leading-8 sm:leading-[52px] text-white'>Ready to get started</h2>
-                        <h2 className='text-[25px] lg:text-[40px] font-recharge text-[#02CDCF] font-bold leading-8 sm:leading-[52px]'>Talk to us Today</h2>
+                        <h2 className='text-[25px] relative z-[2] sm:text-[40px] font-recharge font-bold leading-8 sm:leading-[52px] text-white'>Ready to get started</h2>
+                        <h2 className='text-[25px] relative z-[2] lg:text-[40px] font-recharge text-[#02CDCF] font-bold leading-8 sm:leading-[52px]'>Talk to us Today</h2>
                     </div>
-                    <div>
+                    <div className=' relative z-[2]'>
                         <CommonButton text='Get Started' />
                     </div>
                 </div>

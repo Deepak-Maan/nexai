@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ellipse from '../assets/images/png/ellipse-img.png'
 const BlockChain = () => {
     const settings = {
         dots: false,
@@ -35,7 +36,12 @@ const BlockChain = () => {
         ]
     };
     return (
-        <div id='market' className='overflow-x-clip'>
+        <div id='market' className='overflow-x-clip relative'>
+            <img className='absolute w-[209px] top-[3%] max-lg:hidden right-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
+            <img className='absolute w-[209px] bottom-[-30%] max-lg:hidden left-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
+            <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute -right-[3%] top-[20%] animate-pulse '></div>
+            <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute -right-[3%] -bottom-[10%] animate-pulse '></div>
+            <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute left-[1%] bottom-[10%] animate-pulse '></div>
             <div className='mx-auto px-3 max-w-[1200px] pt-8 sm:pt-10 md:pt-20 lg:pt-[160px]'>
                 <h2 className='text-[25px] md:text-[40px] text-[#02CDCF] font-recharge font-bold leading-8 md:leading-[50px] text-center'>Blockchain & AI technology</h2>
                 <p className='font-normal text-sm sm:text-base leading-[25px] font-poppins mx-auto text-center max-w-[997px] text-[#B4B5B5] pt-4'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
