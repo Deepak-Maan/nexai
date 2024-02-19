@@ -48,7 +48,7 @@ const Utility = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex md:flex-row flex-col justify-between md:items-center pt-5 sm:mt-15 md:mt-32 lg:mt-[287px] sm:pb-5 lg:pb-[65px]">
+                <div className="max-w-[1140px] mx-auto flex md:flex-row flex-col justify-between md:items-center pt-5 sm:mt-15 md:mt-32 lg:mt-[287px] sm:pb-5 lg:pb-[65px]">
                     <div className='max-md:pb-5'>
                         <h2 className='text-[25px] relative z-[2] sm:text-[40px] font-recharge font-bold leading-8 sm:leading-[52px] text-white'>Ready to get started</h2>
                         <h2 className='text-[25px] relative z-[2] lg:text-[40px] font-recharge text-[#02CDCF] font-bold leading-8 sm:leading-[52px]'>Talk to us Today</h2>
