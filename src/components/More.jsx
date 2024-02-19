@@ -47,7 +47,7 @@ const More = () => {
                 <h2 className="font-recharge font-bold text-[25px] sm:text-[40px] leading-8 sm:leading-[50px] text-[#02CDCF] text-start sm:text-center">NexAi does all this. And more.</h2>
                 <p className=" font-poppins font-normal text-sm sm:text-[16px] leading-[25px] text-[#B7B7B7] text-start sm:text-center max-w-[912px] mx-auto mt-4"> Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
             </div>
-            <Slider className=" pt-5 sm:pt-12 lg:pt-[90px] nexAI" {...settings} autoplaySpeed={0}>
+            <Slider data-aos="zoom-in" className=" pt-5 sm:pt-12 lg:pt-[90px] nexAI" {...settings} autoplaySpeed={0}>
                 {slides.map((slideContent) => (
                     <div className={`w-full max-w-[500px] shadow-[0_4px_20px_0_#02CDCF29] duration-300 rounded-2xl my-[20px]`} key={slideContent.id}>
                         <div className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
@@ -56,7 +56,7 @@ const More = () => {
                     </div>
                 ))}
             </Slider>
-            <Slider className="nexAI" {...settings} slidesToShow={4.5} autoplaySpeed={0} rtl={true}>
+            <Slider data-aos="zoom-in" className="nexAI" {...settings} slidesToShow={4.5} autoplaySpeed={0} rtl={true}>
                 {slides.map((slideContent) => (
                     <div className={`w-full max-w-[500px] shadow-[0_4px_20px_0_#02CDCF29] duration-300 rounded-2xl my-[20px]`} key={slideContent.id}>
                         <div className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
@@ -65,7 +65,7 @@ const More = () => {
                     </div>
                 ))}
             </Slider>
-            <Slider className="nexAI" {...settings} slidesToShow={4.1} autoplaySpeed={0}>
+            <Slider data-aos="zoom-out" className="nexAI" {...settings} slidesToShow={4.1} autoplaySpeed={0}>
                 {slides.map((slideContent) => (
                     <div className={`w-full max-w-[500px] shadow-[0_4px_20px_0_#02CDCF29] duration-300 rounded-2xl my-[20px]`} key={slideContent.id}>
                         <div className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">

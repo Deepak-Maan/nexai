@@ -13,6 +13,8 @@ import More from "./components/More";
 import { useEffect, useState } from "react";
 import Preloader from "./components/Preloader";
 import Backtotop from "./components/BackToTop";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [data, setdata] = useState(true);
@@ -21,6 +23,9 @@ function App() {
     setTimeout(() => {
       setdata(false);
     }, 3000);
+  }, []);
+  useEffect(() => {
+    AOS.init({ once: true });
   }, []);
   return (
     <>
