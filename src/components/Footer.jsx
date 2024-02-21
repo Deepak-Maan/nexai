@@ -18,10 +18,10 @@ const Footersection = () => {
                     <div className=' pt-6 lg:pt-0 flex justify-between'>
                         <ul>
                             <li className=' pb-[10px] sm:pb-[20px] text-white font-recharge font-bold text-[16px] sm:text-[18px] leading-[21px]'>Quick links</li>
-                            <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#_">Home</a></li>
-                            <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#_">Features</a></li>
+                            <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#home">Home</a></li>
+                            <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#features">Features</a></li>
                             <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#_">Marketplace</a></li>
-                            <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#_">Tokens</a></li>
+                            <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#token">Tokens</a></li>
                             <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#_">NexChat</a></li>
                             <li className=' pb-[10px] sm:pb-[20px]'><a className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[19px] text-[#B7B9B9] hover:text-white duration-300' href="#_">About</a></li>
                         </ul>

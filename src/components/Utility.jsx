@@ -4,7 +4,7 @@ import CommonButton from './CommonButton'
 import ellipse from '../assets/images/png/ellipse-img.png'
 const Utility = () => {
     return (
-        <div className='relative overflow-x-clip'>
+        <div id='token' className='relative overflow-x-clip'>
             <img className='absolute w-[209px] top-[3%] max-lg:hidden right-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
             <img className='absolute w-[209px] bottom-[8%] max-lg:hidden right-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
             <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute right-[2%] top-[25%] animate-pulse '></div>
