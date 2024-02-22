@@ -4,11 +4,11 @@ import CommonButton from './CommonButton'
 const Assistant = () => {
     return (
         <div className='relative overflow-x-clip mt-8 md:mt-[86px]'>
-            <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute -right-[10%] top-[10%] animate-pulse '></div>
+            <div className='bg-[#02CDCF] max-sm:hidden h-[231px] w-[231px] blur-[180px] absolute -right-[10%] top-[10%] animate-pulse '></div>
             <div className="mx-auto max-w-[1140px] px-3">
                 <div className="grid lg:grid-cols-2 gap-5 sm:gap-12 lg:gap-24">
                     <div data-aos="zoom-in" className='relative'>
-                        <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute left-[28%] top-[10%] animate-pulse '></div>
+                        <div className='bg-[#02CDCF] max-sm:hidden h-[231px] w-[231px] blur-[180px] absolute left-[28%] top-[10%] animate-pulse '></div>
                         <img className='w-full' src={AssistantImg} alt="Assistant-Img" />
                     </div>
                     <div data-aos="zoom-out" className='pt-[30px]'>
