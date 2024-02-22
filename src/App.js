@@ -35,7 +35,7 @@ function App() {
         </>
       ) : (
         <div>
-          <div className="bg-[url('./assets/images/png/bg-header.png')] bg-no-repeat  min-h-[466px] lg:min-h-[810px] ">
+          <div className="bg-[url('./assets/images/png/bg-header.png')] bg-no-repeat  min-h-[466px] lg:min-h-[810px] min-[1440px]:bg-center">
             <Nav />
             <Hero />
           </div>
