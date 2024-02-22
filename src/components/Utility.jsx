@@ -11,7 +11,7 @@ const Utility = () => {
             <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute left-[1%] top-[10%] animate-pulse '></div>
             <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute right-[1%] bottom-[10%] animate-pulse '></div>
             <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute left-[1%] bottom-[10%] animate-pulse '></div>
-            <div className='max-w-[1300px] pt-[160px] mx-auto px-3'>
+            <div className='max-w-[1300px] pt-14 md:pt-20 lg:pt-[160px] mx-auto px-3'>
                 <h2 className='text-[#02CDCF] text-[25px] sm:text-[40px] font-recharge font-bold leading-8 sm:leading-[50px] text-center'>NexAI Token & utility</h2>
                 <div className="grid lg:grid-cols-2 ">
                     <div className='relative  overflow-hidden'>
