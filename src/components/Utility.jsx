@@ -5,8 +5,8 @@ import ellipse from '../assets/images/png/ellipse-img.png'
 const Utility = () => {
     return (
         <div id='token' className='relative overflow-x-clip'>
-            <img className='absolute w-[209px] top-[3%] max-lg:hidden right-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
-            <img className='absolute w-[209px] bottom-[8%] max-lg:hidden right-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
+            <img className='absolute w-[209px] top-[3%] max-lg:hidden right-[-10%] min-[1440px]:right-[-6%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
+            <img className='absolute w-[209px] bottom-[8%] max-lg:hidden right-[-10%] min-[1440px]:right-[-6%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
             <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute right-[2%] top-[25%] animate-pulse '></div>
             <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute left-[1%] top-[10%] animate-pulse '></div>
             <div className='bg-[#02CDCF] h-[231px] max-lg:hidden w-[231px] blur-[180px] absolute right-[1%] bottom-[10%] animate-pulse '></div>

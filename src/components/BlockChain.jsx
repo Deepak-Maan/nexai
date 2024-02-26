@@ -37,8 +37,8 @@ const BlockChain = () => {
     };
     return (
         <div id='market' className='overflow-x-clip relative'>
-            <img className='absolute w-[209px] top-[3%] max-lg:hidden right-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
-            <img className='absolute w-[209px] bottom-[-30%] max-lg:hidden left-[-10%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
+            <img className='absolute w-[209px] top-[3%] max-lg:hidden right-[-10%] min-[1440px]:right-[-6%] animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
+            <img className='absolute w-[209px] bottom-[-30%] max-lg:hidden min-[1440px]:left-[-7%] left-[10%]  animate-spin [animation-duration:4s]' src={ellipse} alt="ellipse" />
             <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute -right-[3%] top-[20%] animate-pulse '></div>
             <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute -right-[3%] -bottom-[10%] animate-pulse '></div>
             <div className='bg-[#02CDCF] h-[231px] w-[231px] blur-[180px] absolute left-[1%] bottom-[10%] animate-pulse '></div>
